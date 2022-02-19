@@ -1,0 +1,823 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Overpass');
+
+.signinbarbg0{
+    position: absolute;
+    width: 1920px;
+    height: 954px;
+    left: 10px;
+    top: 136px;
+    background: linear-gradient(283.96deg, #FDE0B8 11.59%, #DD8104 98.56%);
+}
+.signinbarbg1{
+    position: absolute;
+    width: 781px;
+    height: 684px;
+    left: 186px;
+    top: 271px;
+    z-index: 2;
+    background: #024AAD;
+    border-radius: 100px 0px 0px 100px;
+}
+.signinbarbg1text0{
+    position: absolute;
+    width: 638px;
+    height: 185px;
+    left: 90px;
+    top: 0px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 157.5%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.signinbarbg1text1{
+    position: absolute;
+    width: 638px;
+    height: 185px;
+    left: 90px;
+    top: 134px;
+    line-height: 157.5%;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 157.5%;
+}
+.signinbarbg1pic{
+    position: absolute;
+    width: 565px;
+    height: 565px;
+    left: 105px;
+    top: 191px;
+    background-image: url(signinbarbg1pic.png);
+}
+.signinbarbg2{
+    position: absolute;
+    width: 1537px;
+    height: 684px;
+    left: 202px;
+    top: 271px;
+    z-index: 1;
+    background: #FFFFFF;
+    border-radius: 100px;
+}
+.signinbarbg2text0{
+    position: absolute;
+    width: 102px;
+    height: 34px;
+    left: 821px;
+    top: 113px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+.signinbarbg2button0{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 38px;
+    position: absolute;
+    width: 170px;
+    height: 55px;
+    left: 821px;
+    top: 162px;
+    background: #FFFFFF;
+    border: 2px solid #024AAD;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px 0px 0px 8px;
+    cursor: pointer;
+}
+.signinbarbg2button1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 39px;
+    position: absolute;
+    width: 161px;
+    height: 55px;
+    left: 991px;
+    top: 162px;
+    background: #FFFFFF;
+    border: 2px solid #024AAD;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+}
+
+.signinbarbg2button0text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #024AAD;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+.signinbarbg2button0text:hover{
+    background: #024AAD;
+    color: #FFFFFF;
+    width: 165px;
+    height: 55px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.signinbarbg2button2{
+    position: absolute;
+    width: 200px;
+    height: 39px;
+    left: 796px;
+    top: 239px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+.signinbarbg3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 594px;
+    height: 53px;
+    left: 822px;
+    top: 373px;
+    background: #F0F0F0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    z-index: 1;
+}
+.signinbarbg2button3{
+    position: absolute;
+    width: 284px;
+    height: 26px;
+    left: 983px;
+    top: 519px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #1117AC;
+    cursor: pointer;
+}
+.signinbarbg2text1{
+    position: absolute;
+    width: 569px;
+    height: 105px;
+    left: 838px;
+    top: 106px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+.signinbarbg2text_1{
+    line-height: 31px;
+    font-size: 17px;
+}
+.signinbarbg2text2{
+    position: absolute;
+    width: 569px;
+    height: 105px;
+    left: 838px;
+    top: 287px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+.signinbarbg2text3{
+    position: absolute;
+    width: 569px;
+    height: 105px;
+    left: 838px;
+    top: 461px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+.signinbarbg2button4{
+    position: absolute;
+    width: 147px;
+    height: 43px;
+    left: 1049px;
+    top: 627px;
+    background: #C4C4C4;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 31px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.signinbarbg4{
+    position: absolute;
+    width: 1920px;
+    height: 954px;
+    left: 10px;
+    top: 136px;
+    background-image: url(signinpagebg2.png);
+}
+.signinbarbg2button5{
+    position: absolute;
+    width: 284px;
+    height: 26px;
+    left: 998px;
+    top: 629px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #1117AC;
+}
+.signinbarbg2text4{
+    position: absolute;
+    height: 21px;
+    width: 80px;
+    left: 829px;
+    top: 17px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    color: #304A68;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 6px 0px;
+}
+.signinbarbg2text5{
+    position: absolute;
+    height: 21px;
+    width: 78px;
+    left: 1092px;
+    top: 17px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    color: #304A68;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 6px 0px;
+}
+.signinbarbg2text6{
+    position: absolute;
+    height: 21px;
+    width: 116px;
+    left: 829px;
+    top: 85px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    color: #304A68;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 6px 0px;
+}
+.signinbarbg2text7{
+    position: absolute;
+    height: 21px;
+    width: 54px;
+    left: 1093px;
+    top: 85px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    color: #304A68;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 6px 0px;
+}
+.signinbarbg2text8{
+    position: absolute;
+    height: 21px;
+    width: 50px;
+    left: 830px;
+    top: 173px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    color: #304A68;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 6px 0px;
+}
+.signinbarbg2text9{
+    position: absolute;
+    height: 21px;
+    width: 104px;
+    left: 829px;
+    top: 266px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    color: #304A68;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 6px 0px;
+    z-index: 1;
+}
+.signinbarbg2text10{
+    position: absolute;
+    height: 21px;
+    width: 73px;
+    left: 829px;
+    top: 355px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    color: #304A68;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 6px 0px;
+}
+.signinbarbg2text11{
+    position: absolute;
+    height: 21px;
+    width: 136px;
+    left: 829px;
+    top: 444px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    color: #304A68;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 6px 0px;
+}
+.signinbarbg2button6{
+    position: absolute;
+    width: 147px;
+    height: 43px;
+    left: 1060px;
+    top: 572px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 31px;
+    border: none;
+    background: #C4C4C4;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.signinbarbg2text12{
+    position: absolute;
+    width: 284px;
+    height: 26px;
+    left: 992px;
+    top: 626px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #1117AC;
+}
+.signinbarbg2bar0{
+    position: absolute;
+    top: 44px;
+    left: 829px;
+    height: 33px;
+    width: 182px;
+    background: #E7E9EB;
+    border: 1px solid #E7E9EB;
+    border-radius: 4px;
+}
+.signinbarbg2bar1{
+    position: absolute;
+    top: 44px;
+    left: 1092px;
+    height: 33px;
+    width: 182px;
+    background: #E7E9EB;
+    border: 1px solid #E7E9EB;
+    border-radius: 4px;
+}
+.signinbarbg2bar2{
+    position: absolute;
+    top: 112px;
+    left: 829px;
+    height: 33px;
+    width: 182px;
+    background: #E7E9EB;
+    border: 1px solid #E7E9EB;
+    border-radius: 4px;
+}
+.signinbarbg2bar3{
+    position: absolute;
+    top: 293px;
+    left: 829px;
+    height: 42px;
+    width: 444px;
+    background: #E7E9EB;
+    border: 1px solid #E7E9EB;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #AEB4C0;
+}
+.signinbarbg2bar4{
+    position: absolute;
+    top: 382px;
+    left: 829px;
+    height: 42px;
+    width: 444px;
+    background: #FFFFFF;
+    border: 1px solid #C3C4CB;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #AEB4C0;
+}
+.signinbarbg2bar5{
+    position: absolute;
+    top: 471px;
+    left: 829px;
+    height: 42px;
+    width: 444px;
+    background: #FFFFFF;
+    border: 1px solid #C3C4CB;
+    border-radius: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #AEB4C0;
+}
+.genderbutton{
+    position: absolute;
+    width: 182px;
+    height: 33px;
+    left: 1092px;
+    top: 112px;
+    background: #FFFFFF;
+    border: 1px solid #024AAD;
+    box-sizing: border-box;
+    border-radius: 13px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    color: #000000;
+    cursor: pointer;
+    z-index: 1;
+}
+.gendercontent{
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #024AAD;
+    box-sizing: border-box;
+    border-radius: 13px;
+    width: 182px;
+    left: 1092px;
+    top: 145px;
+    z-index: 2;
+}
+.genderitem{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+.genderitem:hover{
+    background: #f4f4f4;
+    cursor: pointer;  
+    border-radius: 13px;
+}
+.schoolbutton{
+    position: absolute;
+    top: 197px;
+    left: 827.5px;
+    width: 448px;
+    height: 37px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: #FFFFFF;
+    border: 1px solid #024AAD;
+    box-sizing: border-box;
+    border-radius: 13px;
+    padding: 0px 7px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    display: flex;
+    z-index: 1;
+    cursor: pointer;
+}
+.schoolcontent{
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #024AAD;
+    box-sizing: border-box;
+    border-radius: 13px;
+    left: 827.5px;
+    width: 448px;
+    top: 234px;
+    z-index: 2;
+}
+.schoolitem{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+}
+.schoolitem:hover{
+    background: #f4f4f4;
+    cursor: pointer;
+    border-radius: 13px;
+}
+.signinbarbg2bar6{
+    top: 223px;
+    left: 838px;
+    width: 569px;
+    height: 42px;
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #C3C4CB;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 31px;
+    color: #CDCDCD;
+    display: flex;
+    align-items: center;
+}
+.signinbarbg2bar7{
+    top: 393px;
+    left: 838px;
+    width: 569px;
+    height: 42px;
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #C3C4CB;
+    border-radius: 4px;
+}
+.signinbarbg2bar8{
+    top: 563px;
+    left: 838px;
+    width: 569px;
+    height: 42px;
+    position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #C3C4CB;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 31px;
+    color: #CDCDCD;
+    display: flex;
+    align-items: center;
+}
+.date0{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+    z-index: 2;
+}
+.date0button{
+    position: absolute;
+    top: 278px;
+    left: 822px;
+    width: 123px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #024AAD;
+    box-sizing: border-box;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.date0text{
+    position: absolute;
+    left: 13.5px;
+}
+.date0arrow{
+    position: absolute;
+    left: 97px;
+    top: 15px;
+    width: 10px;
+    height: 8px;
+    background-image: url(arrow.png);
+}
+.date0content{
+    position: absolute;
+    top: 316px;
+    width: 123px;
+    left: 822px;
+    background: #FFFFFF;
+    border: 1px solid #024AAD;
+    box-sizing: border-box;
+    border-radius: 13px;
+    cursor: pointer;
+    z-index: 2;
+}
+.date1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+    z-index: 2;
+}
+.date1button{
+    position: absolute;
+    top: 278px;
+    left: 973px;
+    width: 123px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #024AAD;
+    box-sizing: border-box;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.date1text{
+    position: absolute;
+    left: 13.5px;
+}
+.date1arrow{
+    position: absolute;
+    left: 97px;
+    top: 15px;
+    width: 10px;
+    height: 8px;
+    background-image: url(arrow.png);
+}
+.date1content{
+    position: absolute;
+    top: 316px;
+    width: 123px;
+    left: 973px;
+    background: #FFFFFF;
+    border: 1px solid #024AAD;
+    box-sizing: border-box;
+    border-radius: 13px;
+    cursor: pointer;
+    z-index: 2;
+}
+.date2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
+    z-index: 2;
+}
+.date2button{
+    position: absolute;
+    top: 278px;
+    left: 1124px;
+    width: 123px;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #024AAD;
+    box-sizing: border-box;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.date2text{
+    position: absolute;
+    left: 13.5px;
+}
+.date2arrow{
+    position: absolute;
+    left: 97px;
+    top: 15px;
+    width: 10px;
+    height: 8px;
+    background-image: url(arrow.png);
+}
+.date2content{
+    position: absolute;
+    top: 316px;
+    width: 123px;
+    left: 1124px;
+    background: #FFFFFF;
+    border: 1px solid #024AAD;
+    box-sizing: border-box;
+    border-radius: 13px;
+    cursor: pointer;
+    z-index: 2;
+}
+.date0item:hover{
+    background: #f4f4f4;
+    cursor: pointer;
+    border-radius: 13px;
+}
+.date1item:hover{
+    background: #f4f4f4;
+    cursor: pointer;
+    border-radius: 13px;
+}
+.date2item:hover{
+    background: #f4f4f4;
+    cursor: pointer;
+    border-radius: 13px;
+}

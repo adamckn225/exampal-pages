@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fcfcfc;
+}
+
+.container{
+    width: 400px;
+    height: 100vh;
+}
+
+.head{
+    width: 400px;
+    user-select: none;
+    margin: 0 auto;
+    position: relative;
+}
+.head .headbtn{
+    padding: 15px 20px;
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head .headcontent{
+    position: absolute;
+    top: 110%;
+    left: 0;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-weight: 500;
+    color: #333;
+    width: 95%;
+}
+
+.head .headcontent .headitem{
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.headitem:hover{
+    background: #f4f4f4;
+    cursor: pointer;
+}

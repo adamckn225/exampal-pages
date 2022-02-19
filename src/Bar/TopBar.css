@@ -1,0 +1,94 @@
+.topbarbg{
+    position: absolute;
+    width: 1836px;
+    height: 111px;
+    left: 119px;
+    top: 0px;
+    background: #F9F9F9;
+    border: 2px solid #C5C2C2;
+  }
+  .topbarbutton0{
+    position: absolute;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    width: 229px;
+    height: 44px;
+    left: 161px;
+    top: 34px;
+    background: #FB6D3A;
+    border: 3px solid #E06235;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .topbarbutton1{
+    position: absolute;
+    width: 132px;
+    height: 44px;
+    left: 1333px;
+    top: 33px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    background: #FFBC58;
+    border: 3px solid #E3A547;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .topbarbutton2{
+    position: absolute;
+    width: 132px;
+    height: 44px;
+    left: 1502px;
+    top: 33px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;  
+    background: #62DC84;
+    border: 3px solid #52AB6B;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .topbarTopRight{
+    position: absolute;
+    left: 1774px;
+    height: 85px;
+    width: 83px;
+    top: 0px;
+    background-image: url(Group227.png);
+    z-index: 2;
+}

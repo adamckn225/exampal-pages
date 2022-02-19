@@ -1,0 +1,163 @@
+/*SideBar*/
+.sidebarbg{
+   position: absolute;
+   width:  391px;
+   height: 1241px;
+   left: -40px;
+   top:  -114px;
+   z-index:  1;
+   background: #EEEEEE;
+   border-radius:  35px;
+   }
+.Exampallogo{
+   position: absolute;
+   width:  270px;
+   height: 140px;
+   left: 34px;
+   top:  10px;
+   z-index:  2;
+   background-image: url(ExamPal.png);
+}
+.sidebarList0{
+  position:  absolute;
+  width: 304.87px;
+  height:  57.01px;
+  left:  40px;
+  top: 201px;
+  z-index: 2;
+  list-style-image:  url(dashboard.png);
+  list-style-position: inside;
+  font-family: Poppins;
+  font-style:  normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing:  -0.2px;
+}
+   .sidebarList1{
+  position:  absolute;
+  width: 304.87px;
+  height:  57.01px;
+  left:  40px;
+  top: 265.34px;
+  z-index: 2;
+  list-style-image:  url(chart0.png);
+  list-style-position: inside;
+  font-family: Poppins;
+  font-style:  normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing:  -0.2px;
+}
+.sidebarList2{
+  position:  absolute;
+  width: 304.87px;
+  height:  57.01px;
+  z-index: 2;
+  top: 320.52px;
+  left:  40px;
+  list-style-image:  url(tick.png);
+  list-style-position: inside;
+  font-family: Poppins;
+  font-style:  normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing:  -0.2px;
+}
+.sidebarList3{
+  position:  absolute;
+  width: 304.87px;
+  height:  57.01px;
+  left:  40px;
+  top: 379.53px;
+  z-index: 2;
+  list-style-image:  url(tick.png);
+  list-style-position: inside;
+  font-family: Poppins;
+  font-style:  normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing:  -0.2px;
+}
+.sidebarList4{
+  position:  absolute;
+  width: 304.87px;
+  height:  57.01px;
+  left:  40px;
+  top: 439.53px;
+  z-index: 2;
+  list-style-image:  url(tick.png);
+  list-style-position: inside;
+  font-family: Poppins;
+  font-style:  normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing:  -0.2px;
+}
+.sidebarList0:hover,  .sidebarList1:hover, .sidebarList2:hover,  .sidebarList3:hover, .sidebarList4:hover{
+  background:  linear-gradient(0deg,  #FFE351, #FFE351);
+  border-radius: 15px;
+  position:  absolute;
+  font-size: 24px;
+  width: 305px;
+  height:  68px;
+  left:  16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing:  -0.2px;
+  display: flex;
+  flex-direction:  row;
+  justify-content: center;
+  align-items: center;
+}
+.Ellipse{
+  position:  absolute;
+  width: 339px;
+  height:  334px;
+  left:  -89px;
+  top: 870px;
+  z-index: 2;
+  border-radius: 50%;
+  display: inline-block;
+  background:  #000000;
+  mix-blend-mode:  overlay; 
+  clip-path: inset(0px 0px 78px  0px);
+}
+.ellipsepic0{
+  position:  absolute;
+  width: 19px;
+  height:  25px;
+  left:  41px;
+  top: 976px;
+  z-index: 2;
+  background-image:  url(Rectangle195.png);
+}
+.ellipsepic1{
+  position:  absolute;
+  width: 18px;
+  height:  15px;
+  left:  52.5px;
+  top: 981px;
+  z-index: 2;
+  background-image:  url(Arrow1.png);
+}
+.ellipseword{
+  position:  absolute;
+  width: 138px;
+  height:  24px;
+  left:  80px;
+  top: 978px;
+  z-index: 2;
+  font-family: Poppins;
+  font-style:  normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing:  -0.2px;
+  color: #4F4F4F;
+}
+   

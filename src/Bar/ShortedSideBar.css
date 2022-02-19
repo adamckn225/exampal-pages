@@ -1,0 +1,125 @@
+/*shortedsidebar*/
+.Shortedsidebarlogo{
+    position: absolute;
+    left: 31px;
+    width: 98px;
+    height: 196px;
+    background-image: url(pencil.png);
+    z-index: 2;
+  }
+  .Shortedsidebarbg{
+    position: absolute;
+    width: 159px;
+    height: 1241px;
+    left: -40px;
+    top: -114px;
+    background: #EEEEEE;
+    border-radius: 35px;
+  }
+  .ShortedsidebarList0{
+    position: absolute;
+    width: 304.87px;
+    height: 57.01px;
+    left: 40px;
+    top: 201px;
+    z-index: 2;
+    list-style-image: url(dashboard.png);
+    list-style-position: inside;
+  }
+  .ShortedsidebarList1{
+    position: absolute;
+    width: 304.87px;
+    height: 57.01px;
+    left: 40px;
+    top: 265.34px;
+    z-index: 2;
+    list-style-image: url(chart0.png);
+    list-style-position: inside;
+  }
+  .ShortedsidebarList2{
+    position: absolute;
+    width: 304.87px;
+    height: 57.01px;
+    z-index: 2;
+    top: 320.52px;
+    left: 40px;
+    list-style-image: url(tick.png);
+    list-style-position: inside;
+  }
+  .ShortedsidebarList3{
+    position: absolute;
+    width: 304.87px;
+    height: 57.01px;
+    left: 40px;
+    top: 379.53px;
+    z-index: 2;
+    list-style-image: url(tick.png);
+    list-style-position: inside;
+  }
+  .ShortedsidebarList4{
+    position: absolute;
+    width: 304.87px;
+    height: 57.01px;
+    left: 40px;
+    top: 439.53px;
+    z-index: 2;
+    list-style-image: url(tick.png);
+    list-style-position: inside;
+  }
+  .shortEllipse0{
+    position: absolute;
+    width: 339px;
+    height: 334px;
+    left: -89px;
+    top: 870px;
+    z-index: 2;
+    border-radius: 50%;
+    display: inline-block;
+    background: #000000;
+    mix-blend-mode: overlay; 
+    clip-path: inset(0px 133px 102px 0px)
+  }
+  .shortEllipse1{
+    position: absolute;
+    width: 159px;
+    height: 500px;
+    left: -40px;
+    top: 625px;
+    background: #000000;
+    mix-blend-mode: overlay;
+    border-radius: 35px;
+    clip-path: inset(477px 0px 0px 0px);
+  }
+  .shortellipsepic0{
+    position: absolute;
+    width: 19px;
+    height: 25px;
+    left: 41px;
+    top: 976px;
+    z-index: 2;
+    background-image: url(Rectangle195.png);
+  }
+  .shortellipsepic1{
+    position: absolute;
+    width: 18px;
+    height: 15px;
+    left: 52.5px;
+    top: 981px;
+    z-index: 2;
+    background-image: url(Arrow1.png);
+  }
+  .ShortedsidebarList0:hover,.ShortedsidebarList1:hover, .ShortedsidebarList2:hover, .ShortedsidebarList3:hover, .ShortedsidebarList4:hover{
+    position: absolute;
+    width: 81px;
+    height: 68px;
+    left: 16px;
+    align-items: center;
+    background: linear-gradient(0deg, #FFE351, #FFE351);
+    border-radius: 15px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  

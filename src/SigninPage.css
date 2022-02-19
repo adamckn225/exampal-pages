@@ -1,0 +1,361 @@
+/*Signinpage*/
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.signinpagetext0{
+  position: absolute;
+  left: 160px;
+  top: 108px;
+  font-family: Overpass;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.1em;
+  color: #444B59;
+}
+.signinpagetext1{
+  position: absolute;
+  width: 410px;
+  height: 33px;
+  left: 160px;
+  top: 175px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.1em;
+  color: #444B59;
+}
+.signinpagetext2{
+  position: absolute;
+  width: 410px;
+  height: 33px;
+  left: 468px;
+  top: 175px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.1em;
+  color: #4170B0;
+}
+.username{
+  position: absolute;
+  width: 149px;
+  height: 38px;
+  left: 160px;
+  top: 272px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.1em;
+  color: #444B59;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+.usernamebar0{
+  padding: 24px 32px;
+  position: absolute;
+  width: 640px;
+  height: 81px;
+  left: 160px;
+  top: 326px;
+  background: #FFFFFF;
+  border: 2px solid #3A5AFF;
+  box-sizing: border-box;
+  border-radius: 80px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.1em;
+  color: #C8D3F9;
+}
+.password{
+  position: absolute;
+  width: 146px;
+  height: 38px;
+  left: 160px;
+  top: 443px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.1em;
+  color: #444B59;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+.passwordbar0{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 32px;
+  position: absolute;
+  width: 238px;
+  height: 80px;
+  left: 160px;
+  top: 497px;
+  background: #FFFFFF;
+  border: 2px solid #3A5AFF;
+  box-sizing: border-box;
+  border-radius: 80px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+.signinpagesigninbar{
+  position: absolute;
+  width: 640px;
+  height: 80px;
+  left: 160px;
+  top: 716px;
+  background: #3A5AFF;
+  box-shadow: 4px 8px 12px rgba(78, 99, 141, 0.06), inset 0px 4px 12px rgba(200, 211, 249, 0.6);
+  border-radius: 80px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.signin{
+  position: relative;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 38px;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  left: 265px;
+}
+.signinpagelogo0{
+  position: absolute;
+  width: 141px;
+  height: 113px;
+  left: 19px;
+  top: 11px;
+  background-image: url(ExamPal2.png);
+}
+.signinpagelogo1{
+  position: absolute;
+  width: 960px;
+  height: 848.96px;
+  left: 880px;
+  top: 135px;
+  background-image: url(signinpagelogo1.png);
+}
+.rememberme{
+  position: absolute;
+  width: 200px;
+  height: 27px;
+  left: 160px;
+  top: 613px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  color: #444B59;
+}
+.remembermebutton{
+  width: 48px;
+  height: 48px;
+}
+.remembermetext{
+  position: absolute;
+  left: 64px;
+  top: 11px;
+  width: 200px;
+  height: 27px;
+}
+.forgotpassword{
+  position: absolute;
+  width: 194px;
+  height: 27px;
+  left: 607px;
+  top: 624px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  color: #8699DA;
+  cursor: pointer;
+}
+.signinbar0{
+  position: absolute;
+  width: 48px;
+  height: 27px;
+  left: 1174px;
+  top: 51px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: #444B59;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+.signinbar1{
+  position: absolute;
+  height: 27px;
+  left: 1302px;
+  top: 51px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: #444B59;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+}
+.signinbar2{
+  position: absolute;
+  height: 27px;
+  left: 1499px;
+  top: 51px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: #444B59;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.signinbar3{
+  position: absolute;
+  height: 27px;
+  left: 1679px;
+  top: 51px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: right;
+  letter-spacing: 0.1em;
+  color: #444B59;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+}
+.signinbar4{
+  position: absolute;
+  left: 1588px;
+  top: 60.77px;
+  height: 9px;
+  width: 11px;
+  background-image: url(arrow.png);
+  cursor: pointer;
+}
+.signinpagetext3{
+  position: relative;
+  left: 384px;
+  top: 832px;
+  width: 192px;
+  height: 43px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+  color: #444B59;
+  flex: none;
+  z-index: 2;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.signinbarhome{
+  position: absolute;
+  left: 1825px;
+  top: 54.34px;
+  width: 30px;
+  height: 23.33px;
+  background-image: url(home.png);
+}
+.signinpageline{
+  position: absolute;
+  width: 475px;
+  height: 0px;
+  left: 240px;
+  top: 854px;
+  z-index: 1;
+  background: #C8D3F9;
+  border: 1px solid #C8D3F9;
+}
+.signinpagebutton0{
+  position: absolute;
+  width: 120px;
+  height: 80px;
+  left: 240px;
+  top: 891px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-image: url(google.png);
+  cursor: pointer;
+}
+.signinpagebutton1{
+  position: absolute;
+  width: 120px;
+  height: 80px;
+  left: 420px;
+  top: 891px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-image: url(facebook.png);
+  cursor: pointer;
+}
+.signinpagebutton2{
+  position: absolute;
+  width: 120px;
+  height: 80px;
+  left: 600px;
+  top: 891px;
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-image: url(apple.png);
+  cursor: pointer;
+}
